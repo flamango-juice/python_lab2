@@ -45,12 +45,12 @@ print(f"""
 
 # Part 3: Expressions and Operators
 print(f"""
-The sum of age and 5: {age + 5:d}
-The difference between height and 4: {height - 4:.2f}
-The product of age and height: {age * height:.2f}
-The quotient of height and 2: {height / 2:.2f}
-The remainder of age divided by 3: {age % (age + 1):.2f}
-Age raised to the power of 2 (squared): {age ** 2:d}
+The sum of age and 5: {age + 5:d} 
+The difference between height and 4: {height - 4}
+The product of age and height: {age * height}
+The quotient of height and 2: {height / 2}
+The remainder of age divided by 3: {age % (age + 1)}
+Age raised to the power of 2 (squared): {age ** 2}
 """)
 
 # Part 4: Temperature Conversion
@@ -61,11 +61,12 @@ Celsius: {celsius:.0f}°C
 Fahrenheit: {fahrenheit}°F
 """)
 
-#cel = int(input("Enter the current temperature in Celsius:"))
-#fahr = (cel * 1.8) + 32
+# version but with Celsius as an input.
+cel = int(input("Enter the current temperature in Celsius:"))
+fahr = (cel * 1.8) + 32
 
-#print(f"""
-#Celsius: {cel}°C
-#Fahrenheit: {fahr:.0f}°F
-#""")
+print(f"""
+Celsius: {cel}°C
+Fahrenheit: {fahr:.0f}°F
+""")
 
