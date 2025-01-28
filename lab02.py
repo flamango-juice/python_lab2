@@ -54,7 +54,7 @@ Age raised to the power of 2 (squared): {age ** 2}
 """)
 
 # Part 4: Temperature Conversion
-fahrenheit = int(input("Enter the current temperature in Fahrenheit:"))
+fahrenheit = float(input("Enter the current temperature in Fahrenheit:"))
 celsius = (fahrenheit - 32) * 5/9
 
 print(f"""
@@ -63,11 +63,10 @@ Fahrenheit: {fahrenheit}°F
 """)
 
 # version but with Celsius as an input.
-cel = int(input("Enter the current temperature in Celsius:"))
+cel = float(input("Enter the current temperature in Celsius:"))
 fahr = (cel * 1.8) + 32
 
 print(f"""
 Celsius: {cel}°C
 Fahrenheit: {fahr:.0f}°F
 """)
-
