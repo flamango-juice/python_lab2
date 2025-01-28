@@ -1,11 +1,14 @@
 import math
 
-# part 1
+# Part 1: Variables and Assignments
+
+# 1.1
 name = "John Doe"
 age = 200
 height = 5 + (7/12)
 favourite_colour = "Green"
 
+# 1.2
 print(name)
 print(age)
 print(height)
@@ -23,15 +26,20 @@ Height: {height}
 Favorite color: {favourite_colour}
 """)
 
-# part 2
+#1.3
+rad = 5
+circle_area = math.pi * (rad ** 2)
+print(round(circle_area,1))
+
+
+# Part 2: Statements and Modules
 print(math.sqrt(age))
 
 sin = math.sin(height)
 cos = math.cos(height)
 print(sin, cos)
 
-# part 3
-
+# Part 3: Expressions and Operators
 a = age + 5
 b = height - 4
 c = age * height
