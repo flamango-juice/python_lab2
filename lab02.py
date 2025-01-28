@@ -56,6 +56,7 @@ Age raised to the power of 2 (squared): {age ** 2}
 # Part 4: Temperature Conversion
 fahrenheit = int(input("Enter the current temperature in Fahrenheit:"))
 celsius = (fahrenheit - 32) * 5/9
+
 print(f"""
 Celsius: {celsius:.0f}°C
 Fahrenheit: {fahrenheit}°F
